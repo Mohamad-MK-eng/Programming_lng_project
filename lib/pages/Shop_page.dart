@@ -15,7 +15,7 @@ class ShopPage extends StatelessWidget {
           Navigator.pop(context);
         },
          icon: Icon(Icons.arrow_back,color: Colors.white,size: 36,)),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.green[300],
         title: Center(
           child: Container(
             padding: EdgeInsets.only(right: 40),
